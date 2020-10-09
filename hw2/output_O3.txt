@@ -1,64 +1,64 @@
 size = 512
 
-matvec run 0: 4 ms
+matvec run 0: 5 ms
 matvec run 1: 4 ms
-matvec run 2: 4 ms
-matvec run 3: 4 ms
+matvec run 2: 3 ms
+matvec run 3: 3 ms
 matvec run 4: 4 ms
-matvec avg. runtime: 4 ms
+matvec avg. runtime: 3 ms
 
-matmul run 0: 651 ms
-matmul run 1: 636 ms
-matmul run 2: 633 ms
-matmul run 3: 635 ms
-matmul run 4: 634 ms
-matmul avg. runtime: 637 ms
+matmul run 0: 623 ms
+matmul run 1: 616 ms
+matmul run 2: 596 ms
+matmul run 3: 599 ms
+matmul run 4: 617 ms
+matmul avg. runtime: 610 ms
 
 size = 1024
 
-matvec run 0: 10 ms
-matvec run 1: 10 ms
-matvec run 2: 8 ms
-matvec run 3: 9 ms
-matvec run 4: 8 ms
-matvec avg. runtime: 9 ms
+matvec run 0: 17 ms
+matvec run 1: 17 ms
+matvec run 2: 14 ms
+matvec run 3: 14 ms
+matvec run 4: 14 ms
+matvec avg. runtime: 15 ms
 
-matmul run 0: 4524 ms
-matmul run 1: 4995 ms
-matmul run 2: 5064 ms
-matmul run 3: 4823 ms
-matmul run 4: 4919 ms
-matmul avg. runtime: 4865 ms
+matmul run 0: 5016 ms
+matmul run 1: 5040 ms
+matmul run 2: 4860 ms
+matmul run 3: 4887 ms
+matmul run 4: 4851 ms
+matmul avg. runtime: 4930 ms
 
 size = 2048
 
-matvec run 0: 41 ms
-matvec run 1: 41 ms
-matvec run 2: 41 ms
-matvec run 3: 41 ms
-matvec run 4: 41 ms
-matvec avg. runtime: 41 ms
+matvec run 0: 69 ms
+matvec run 1: 67 ms
+matvec run 2: 67 ms
+matvec run 3: 68 ms
+matvec run 4: 67 ms
+matvec avg. runtime: 67 ms
 
-matmul run 0: 37176 ms
-matmul run 1: 36701 ms
-matmul run 2: 36744 ms
-matmul run 3: 36585 ms
-matmul run 4: 36010 ms
-matmul avg. runtime: 36643 ms
+matmul run 0: 39066 ms
+matmul run 1: 38951 ms
+matmul run 2: 38615 ms
+matmul run 3: 39051 ms
+matmul run 4: 38530 ms
+matmul avg. runtime: 38842 ms
 
 size = 4096
 
-matvec run 0: 165 ms
-matvec run 1: 166 ms
-matvec run 2: 166 ms
-matvec run 3: 166 ms
-matvec run 4: 165 ms
-matvec avg. runtime: 165 ms
+matvec run 0: 268 ms
+matvec run 1: 273 ms
+matvec run 2: 271 ms
+matvec run 3: 269 ms
+matvec run 4: 275 ms
+matvec avg. runtime: 271 ms
 
-matmul run 0: 299470 ms
-matmul run 1: 297688 ms
-matmul run 2: 294450 ms
-matmul run 3: 296029 ms
-matmul run 4: 292890 ms
-matmul avg. runtime: 296105 ms
+matmul run 0: 303514 ms
+matmul run 1: 305812 ms
+matmul run 2: 311338 ms
+matmul run 3: 306687 ms
+matmul run 4: 314098 ms
+matmul avg. runtime: 308289 ms
 

@@ -1,0 +1,64 @@
+size = 512
+
+matvec run 0: 4 ms
+matvec run 1: 4 ms
+matvec run 2: 7 ms
+matvec run 3: 3 ms
+matvec run 4: 3 ms
+matvec avg. runtime: 4 ms
+
+matmul run 0: 609 ms
+matmul run 1: 613 ms
+matmul run 2: 614 ms
+matmul run 3: 617 ms
+matmul run 4: 607 ms
+matmul avg. runtime: 612 ms
+
+size = 1024
+
+matvec run 0: 18 ms
+matvec run 1: 22 ms
+matvec run 2: 30 ms
+matvec run 3: 17 ms
+matvec run 4: 34 ms
+matvec avg. runtime: 24 ms
+
+matmul run 0: 4833 ms
+matmul run 1: 4818 ms
+matmul run 2: 4924 ms
+matmul run 3: 6202 ms
+matmul run 4: 8799 ms
+matmul avg. runtime: 5915 ms
+
+size = 2048
+
+matvec run 0: 91 ms
+matvec run 1: 91 ms
+matvec run 2: 92 ms
+matvec run 3: 94 ms
+matvec run 4: 90 ms
+matvec avg. runtime: 91 ms
+
+matmul run 0: 39160 ms
+matmul run 1: 37896 ms
+matmul run 2: 38243 ms
+matmul run 3: 38719 ms
+matmul run 4: 38781 ms
+matmul avg. runtime: 38559 ms
+
+size = 4096
+
+matvec run 0: 307 ms
+matvec run 1: 306 ms
+matvec run 2: 308 ms
+matvec run 3: 310 ms
+matvec run 4: 304 ms
+matvec avg. runtime: 307 ms
+
+matmul run 0: 304867 ms
+matmul run 1: 311704 ms
+matmul run 2: 318596 ms
+matmul run 3: 302310 ms
+matmul run 4: 302604 ms
+matmul avg. runtime: 308016 ms
+

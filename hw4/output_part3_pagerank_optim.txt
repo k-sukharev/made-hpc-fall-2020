@@ -1,0 +1,16 @@
+Naive ranking run 0: 43.7966 ms
+Naive ranking run 1: 43.0756 ms
+Naive ranking run 2: 43.0677 ms
+Naive ranking run 3: 42.8472 ms
+Naive ranking run 4: 48.1724 ms
+
+Pagerank run 0: 158.271 ms
+Pagerank run 1: 159.215 ms
+Pagerank run 2: 156.871 ms
+Pagerank run 3: 157.673 ms
+Pagerank run 4: 157.068 ms
+
+Naive ranking avg. runtime: 44.1919 ms
+
+Pagerank avg. runtime: 157.82 ms
+

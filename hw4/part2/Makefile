@@ -1,0 +1,16 @@
+CC=gcc
+CFLAGS=-c
+LIB_SOURCES=vec.cpp matrix.cpp ranking.cpp
+LIB_OBJECTS=$(LIB_SOURCES:.cpp=.o)
+STATIC_LIB=static_lib.a
+EXEC=pagerank
+
+all: $(EXEC)
+$(EXEC): $(STATIC_LIB)
+	$(CC) main.cpp -lstdc++ $(STATIC_LIB) -o $(EXEC)
+$(STATIC_LIB): $(LIB_OBJECTS)
+	ar rc $@ $(LIB_OBJECTS)
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+clean:
+	rm -f *.o $(STATIC_LIB) $(EXEC)

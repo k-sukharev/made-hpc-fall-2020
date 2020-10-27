@@ -1,0 +1,5 @@
+name: hpc
+channels:
+  - defaults
+dependencies:
+  - mpi4py=3.0.3
